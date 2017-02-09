@@ -34,7 +34,8 @@ public class ExchangeController {
         CustomNumber number = new CustomNumber();
         ConversionResponse conversionResponse = new ConversionResponse();
 
-
+        System.out.println("ExchangeController.exchangeUtil()" + symbOne + " to " + symbTwo);
+        
         exchange = currencyExchangeRepository.findBySymbOneAndSymbTwo(symbOne, symbTwo);
         if (exchange != null) {
             conversionresult = number.round(exchange.getExchangerate() * amount, 3);

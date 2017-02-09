@@ -1,0 +1,15 @@
+Basic COCOMO, using software project class: Organic
+Total lines of code  = 209 (0.209 kLOC)
+Effort Applied   (E) =   0.464 [person-months] (2.4 * kLOC ^ 1.05)
+Development Time (D) =   1.867 [months] (2.5 * E ^ 0.38)
+People Required  (P) =   0.248 [number of] (E / D)
+
+/src/main/java/com/davidoladeji/exchange/util/CustomNumber.java: 14 LOC
+/src/main/java/com/davidoladeji/exchange/model/Exchange.java: 46 LOC
+/src/main/java/com/davidoladeji/exchange/controller/ExchangeController.java: 56 LOC
+/src/main/java/com/davidoladeji/exchange/repository/ExchangeRepository.java: 9 LOC
+/src/main/java/com/davidoladeji/exchange/Application.java: 21 LOC
+/pom.xml: 63 LOC
+
+Excluded files in:
+	/.idea/
